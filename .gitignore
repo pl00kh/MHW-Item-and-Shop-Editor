@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Backups created by the editor
+*.bak
+
+# Local editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
