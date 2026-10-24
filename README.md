@@ -1,6 +1,6 @@
 # MHW Item & Shop Editor
 
-A small offline editor for **Monster Hunter: World / Iceborne** `itemData.itm`
+A small editor for **Monster Hunter: World / Iceborne** `itemData.itm`
 and `shopList.slt` files.
 
 ## Features
@@ -21,7 +21,7 @@ and `shopList.slt` files.
 MHW_Item_and_Shop_Editor/
 ├─ main.py          # Application logic and Tkinter UI
 ├─ mhw_data.py      # Embedded item database and vanilla binary templates
-├─ MHW_Editor.ico   # Optional application icon (add your existing icon here)
+├─ Editor.ico   # Optional application icon (add your existing icon here)
 ├─ README.md
 └─ .gitignore
 ```
@@ -41,10 +41,10 @@ No third-party Python packages are required to run the editor.
 
 ## Build the Windows EXE
 
-Place your existing `MHW_Editor.ico` next to `main.py`, then run:
+Place your existing `Editor.ico` next to `main.py`, then run:
 
 ```powershell
-py -m PyInstaller --onefile --windowed --icon="MHW_Editor.ico" --add-data="MHW_Editor.ico;." --name "MHW Item and Shop Editor" "main.py"
+py -m PyInstaller --onefile --windowed --icon="Editor.ico" --add-data="Editor.ico;." --name "MHW Item and Shop Editor" "main.py"
 ```
 
 The finished executable will be created in:

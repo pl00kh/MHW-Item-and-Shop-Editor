@@ -494,7 +494,7 @@ class App(tk.Tk):
         super().__init__()
         self.title(APP_TITLE)
         try:
-            self.iconbitmap(resource_path("MHW_Editor.ico"))
+            self.iconbitmap(resource_path("Editor.ico"))
         except tk.TclError:
             pass
         self.geometry('1200x720')
