@@ -21,7 +21,7 @@ and `shopList.slt` files.
 MHW_Item_and_Shop_Editor/
 ├─ main.py          # Application logic and Tkinter UI
 ├─ mhw_data.py      # Embedded item database and vanilla binary templates
-├─ Editor.ico   # Optional application icon (add your existing icon here)
+├─ Editor.ico       # Application icon
 ├─ README.md
 └─ .gitignore
 ```
